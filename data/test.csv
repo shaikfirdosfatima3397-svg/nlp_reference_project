@@ -1,0 +1,41 @@
+text,label
+The kettle in order #K441 has a cracked handle.,damaged_product
+"After unboxing, I noticed my television display was shattered.",damaged_product
+One earbud was defective when it arrived; can I get an exchange?,damaged_product
+My delivered backpack has torn stitching and a broken zip.,damaged_product
+The replacement I received is faulty too.,damaged_product
+My new adapter produces smoke whenever plugged in.,damaged_product
+The tablet is scratched badly. I can provide pictures.,damaged_product
+"The shipment arrived, but the glass vase inside is smashed.",damaged_product
+Order D558 is still in transit after the expected arrival date.,delivery
+Can you locate a parcel that the driver marked as delivered?,delivery
+There has been no tracking movement for several days.,delivery
+I need to correct the address for my shipment.,delivery
+My package never reached me and the courier is unreachable.,delivery
+What is the dispatch status of order #H217?,delivery
+The delivery attempt failed. Please arrange another attempt.,delivery
+The shoes have not arrived yet. Can you find the shipment?,delivery
+These trousers are too large. I would like to send them back.,refund_return
+My returned purchase reached you; when will I get my money back?,refund_return
+I wish to cancel order R888 before dispatch.,refund_return
+Could you send instructions for returning an unopened game?,refund_return
+The reimbursement for my cancellation has not appeared.,refund_return
+Can you supply a fresh return label?,refund_return
+I bought the wrong colour and would like a refund.,refund_return
+Is my product eligible for the return window?,refund_return
+"Checkout failed, yet my bank balance fell by INR 1200.",payment
+Two identical transactions appear for order #P321.,payment
+Please provide a GST invoice for my recent purchase.,payment
+My debit card keeps getting declined on your payment page.,payment
+A successful UPI payment did not produce an order confirmation.,payment
+There is an extra charge on my billing statement.,payment
+I need a receipt showing the amount paid.,payment
+The bank shows a pending charge for an unsuccessful transaction.,payment
+The recovery email for my password never reaches me.,account
+I have been locked out of my customer profile.,account
+Can you help update my registered email?,account
+The one time code to sign in keeps expiring.,account
+My activation link is invalid and I cannot access the account.,account
+I no longer remember my login password.,account
+The website rejects my credentials when I try to log in.,account
+How can I verify my account with a new email address?,account

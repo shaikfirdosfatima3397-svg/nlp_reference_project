@@ -1,0 +1,121 @@
+text,label
+My package arrived with a broken screen. I need a replacement.,damaged_product
+The headphones are damaged and the left speaker does not work.,damaged_product
+I received a cracked mug. Please exchange the defective item.,damaged_product
+The camera lens is scratched. The product arrived damaged.,damaged_product
+My new monitor has a shattered display and needs replacement.,damaged_product
+The chair arrived with a broken leg. Can you replace it?,damaged_product
+The laptop screen is cracked and the box was crushed.,damaged_product
+The appliance is defective and will not turn on.,damaged_product
+The phone arrived broken. I can send photographs of the damage.,damaged_product
+The parcel contained a damaged glass bottle. Please help.,damaged_product
+My keyboard has defective keys. I want a working replacement.,damaged_product
+The watch stopped working right after delivery. It is faulty.,damaged_product
+A piece of the blender is broken. Can I exchange the product?,damaged_product
+I found a tear in the bag when I opened the package.,damaged_product
+The item arrived scratched and dented. What evidence do you need?,damaged_product
+There are cracks on the tablet display. Please arrange a replacement.,damaged_product
+The delivered lamp is smashed and unusable.,damaged_product
+The product has a manufacturing defect. It never worked.,damaged_product
+I received damaged goods instead of a working device.,damaged_product
+The toy is faulty and its battery compartment is broken.,damaged_product
+The screen is broken and I have emailed twice about the damaged item.,damaged_product
+My charger emits sparks and smoke. This defective product is unsafe.,damaged_product
+The ceramic plate broke in transit. I need an exchange.,damaged_product
+The jacket arrived torn. I would like a replacement rather than a refund.,damaged_product
+My order has not arrived. Where is my package?,delivery
+The shipment is late and tracking has not updated.,delivery
+I need a delivery update for my parcel.,delivery
+The courier says delivered but I never received my order.,delivery
+My package is stuck in transit. Can you investigate?,delivery
+The delivery was scheduled yesterday and still has not arrived.,delivery
+I have been waiting for my shipment for a week.,delivery
+Tracking shows a delivery delay. When will the parcel arrive?,delivery
+Please tell me where my order is and when it will be delivered.,delivery
+The courier missed the delivery date again.,delivery
+My order has shipped but the tracking link is not working.,delivery
+I need to change the shipping address before dispatch.,delivery
+The package went to the wrong address. Please contact the courier.,delivery
+There is no shipment update on my order.,delivery
+The delivery driver could not find my house.,delivery
+My parcel is missing even though tracking says delivered.,delivery
+Please resend the shipment tracking information.,delivery
+The promised delivery date has passed. I am still waiting.,delivery
+Can you check the courier status of my package?,delivery
+I received no dispatch notification for my purchase.,delivery
+Where is the shipment? I need it delivered today.,delivery
+The parcel is delayed at the sorting centre.,delivery
+My delivery was attempted while I was away. Can I reschedule?,delivery
+The shipping address on the order is incorrect.,delivery
+I want to return my purchase and get a refund.,refund_return
+The item does not fit. How can I send it back?,refund_return
+Please cancel my order and refund the payment.,refund_return
+I changed my mind and would like to return the product.,refund_return
+When will the refund for my returned item arrive?,refund_return
+I need a return label for my order.,refund_return
+The clothes are the wrong size and I want my money back.,refund_return
+How do I start a return request?,refund_return
+I sent the product back but have not received the refund.,refund_return
+Can I return an unopened item within the return window?,refund_return
+Please explain your refund policy.,refund_return
+I no longer need this product. Can I return it?,refund_return
+I would like to cancel the purchase before it ships.,refund_return
+The return has been approved. How long does reimbursement take?,refund_return
+I want to request a refund to the original payment method.,refund_return
+I received the wrong size. Can I return the item?,refund_return
+My return label has expired. I need another label.,refund_return
+The return shipment was received by your warehouse.,refund_return
+I am waiting for my money back after cancellation.,refund_return
+Please help me send this item back for a refund.,refund_return
+I want to return the shoes because they are too small.,refund_return
+Can you explain the conditions for a return?,refund_return
+I requested cancellation and need the refund timeline.,refund_return
+Please check the status of my return request.,refund_return
+My card was charged twice for the same order.,payment
+The payment failed but money was deducted from my account.,payment
+I cannot complete checkout with my credit card.,payment
+There is a duplicate charge on my bank statement.,payment
+I need an invoice for my payment.,payment
+The transaction was declined. What should I do?,payment
+I paid using UPI but the purchase still says unpaid.,payment
+My bank shows a pending transaction after a failed checkout.,payment
+The card payment is not going through.,payment
+Please investigate an incorrect charge on my statement.,payment
+The amount charged does not match the checkout total.,payment
+I need a receipt for the transaction.,payment
+The payment gateway shows an error at checkout.,payment
+I was billed twice and need the duplicate payment checked.,payment
+The transaction is pending and my order was not confirmed.,payment
+Can I get a tax invoice for this purchase?,payment
+The debit card was declined although I have enough money.,payment
+My payment was successful but there is no order confirmation.,payment
+The checkout page charged me the wrong amount.,payment
+The invoice has an incorrect billing address.,payment
+I see two card charges for one purchase.,payment
+My UPI transaction failed but the bank deducted the amount.,payment
+Please send the billing receipt for my transaction.,payment
+The payment page keeps rejecting my card.,payment
+I cannot log in to my account.,account
+Please help me reset my password.,account
+My account is locked after several login attempts.,account
+I forgot the password and the reset email has not arrived.,account
+The verification code is not being sent to my email.,account
+I need to update the email address on my profile.,account
+I cannot sign in after changing my password.,account
+The account activation link has expired.,account
+Please unlock my profile so I can access my account.,account
+My login code is invalid even after requesting a new one.,account
+I need help with account verification.,account
+The password reset link is not working.,account
+I want to change my registered email address.,account
+My profile is disabled and I cannot log in.,account
+The sign in page says my password is incorrect.,account
+I lost access to the email used to register my account.,account
+I cannot receive the one time login code.,account
+Please explain how to recover my account.,account
+My account password has stopped working.,account
+I need assistance signing in to my customer profile.,account
+The reset email never appears in my inbox.,account
+The authentication code expired before I could enter it.,account
+Someone changed my profile email and I cannot sign in.,account
+I want to update my account contact information.,account

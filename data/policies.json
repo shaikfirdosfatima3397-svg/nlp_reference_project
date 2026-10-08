@@ -1,0 +1,58 @@
+[
+  {
+    "id": "POL-01",
+    "category": "damaged_product",
+    "title": "Damaged or defective items",
+    "text": "Report a damaged or defective item within 7 days of delivery. Include your order ID and clear photos of the item and packaging. A support agent must review the evidence before confirming a replacement or refund.",
+    "keywords": "broken cracked shattered scratched dented torn faulty smashed not working defective replacement exchange damage",
+    "next_step": "Please share clear photos of the item and its packaging, along with the delivery date, so an agent can review the request."
+  },
+  {
+    "id": "POL-02",
+    "category": "delivery",
+    "title": "Late or missing deliveries",
+    "text": "If an order is late or marked delivered but missing, share the order ID and confirm the delivery address. Check with household members or reception. Support will request a courier investigation; delivery dates cannot be guaranteed.",
+    "keywords": "shipment parcel transit tracking courier dispatch delivery delay late package where is not arrived missing",
+    "next_step": "Please confirm the delivery address and whether anyone at the address has received the parcel."
+  },
+  {
+    "id": "POL-03",
+    "category": "refund_return",
+    "title": "Returns and cancellations",
+    "text": "Unused items in their original packaging may be requested for return within 30 days of delivery, except personalised and hygiene items. Cancellations depend on dispatch status. Approval requires an agent review.",
+    "keywords": "return label send back wrong size too small too large cancel cancellation refund reimbursement money back unopened",
+    "next_step": "Please share the delivery date, item condition, and reason for the return or cancellation so we can check eligibility."
+  },
+  {
+    "id": "POL-04",
+    "category": "refund_return",
+    "title": "Refund processing",
+    "text": "After a return is received and approved, a refund is initiated to the original payment method. Banks typically take 5 to 10 business days to post it. This is an estimate, not a guaranteed completion date.",
+    "keywords": "refund timeline money back reimbursement returned received warehouse bank original payment waiting refund",
+    "next_step": "Please share your return reference and the date your return was approved so an agent can check the refund status."
+  },
+  {
+    "id": "POL-05",
+    "category": "payment",
+    "title": "Failed or duplicate payments",
+    "text": "For a failed or duplicate payment, share the order ID if available, transaction reference, amount, and date. Pending authorisations may be reversed by the bank. Support must verify settled duplicate charges before approving any adjustment. Never share full card numbers, CVV, PINs, or passwords.",
+    "keywords": "card credit debit bank charge charged twice duplicate transaction declined gateway UPI deducted checkout payment unpaid",
+    "next_step": "Please provide the transaction reference, amount, and date. Do not send card numbers, CVV, PINs, or passwords."
+  },
+  {
+    "id": "POL-06",
+    "category": "payment",
+    "title": "Invoices and receipts",
+    "text": "Invoices and receipts are available for confirmed purchases. Share the order ID and the billing details that need correction. Changes are subject to verification and applicable invoicing rules.",
+    "keywords": "tax GST invoice receipt billing address amount paid statement invoice correction",
+    "next_step": "Please share the order ID and the billing information you need on the invoice."
+  },
+  {
+    "id": "POL-07",
+    "category": "account",
+    "title": "Account access and recovery",
+    "text": "Use the password reset option and check spam folders for the recovery email. If a link or code expires, request a new one. For a locked account or changed email, support must verify ownership. Never share passwords or one time codes with an agent.",
+    "keywords": "login log in sign in credentials password reset activation verification code email account locked profile unlock access authentication",
+    "next_step": "Please describe the error message and confirm whether you can access your registered email. Do not share your password or verification codes."
+  }
+]

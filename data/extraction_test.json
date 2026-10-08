@@ -1,0 +1,92 @@
+[
+  {
+    "text": "Order #A102 cost INR 1200 on 2026-10-05. Email maya@example.com.",
+    "entities": [
+      {
+        "type": "order_id",
+        "value": "A102"
+      },
+      {
+        "type": "amount",
+        "value": "INR 1200"
+      },
+      {
+        "type": "date",
+        "value": "2026-10-05"
+      },
+      {
+        "type": "email",
+        "value": "maya@example.com"
+      }
+    ]
+  },
+  {
+    "text": "My order arrived yesterday. It was late.",
+    "entities": []
+  },
+  {
+    "text": "Please check order number B-778 and order #C909.",
+    "entities": [
+      {
+        "type": "order_id",
+        "value": "B-778"
+      },
+      {
+        "type": "order_id",
+        "value": "C909"
+      }
+    ]
+  },
+  {
+    "text": "Charged $49.99 on 05/10/2026.",
+    "entities": [
+      {
+        "type": "amount",
+        "value": "$49.99"
+      },
+      {
+        "type": "date",
+        "value": "05/10/2026"
+      }
+    ]
+  },
+  {
+    "text": "Contact sam.lee+shop@example.org about order Z12.",
+    "entities": [
+      {
+        "type": "email",
+        "value": "sam.lee+shop@example.org"
+      },
+      {
+        "type": "order_id",
+        "value": "Z12"
+      }
+    ]
+  },
+  {
+    "text": "Delivery was on 5 October 2026.",
+    "entities": [
+      {
+        "type": "date",
+        "value": "5 October 2026"
+      }
+    ]
+  },
+  {
+    "text": "Price: ₹2,499.00. Order ID: X100.",
+    "entities": [
+      {
+        "type": "amount",
+        "value": "₹2,499.00"
+      },
+      {
+        "type": "order_id",
+        "value": "X100"
+      }
+    ]
+  },
+  {
+    "text": "The order does not have a tracking update.",
+    "entities": []
+  }
+]

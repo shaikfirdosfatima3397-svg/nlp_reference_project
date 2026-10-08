@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="An explainable NLP workspace for customer support and student learning.">
+  <title>Support Studio · NLP workspace</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='12' fill='%235447d8'/%3E%3Cpath d='M10 12h20v13H19l-6 5v-5h-3z' fill='white'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script src="/assets/app.js" defer></script>
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <a class="brand" href="/" aria-label="Support Studio home"><span class="brand-mark">s<span>•</span></span><span>Support<span class="brand-second">Studio</span></span></a>
+      <div class="workspace-label"><span class="workspace-avatar">N</span><div>Northstar Store<small>Student demonstration</small></div><span class="subtle">⌄</span></div>
+      <div class="nav-caption">WORKSPACE</div>
+      <nav aria-label="Main navigation">
+        <button class="nav-item active" data-view="inbox"><span class="nav-icon">▤</span>Ticket inbox<span class="nav-count" id="nav-count">0</span></button>
+        <button class="nav-item" data-view="lab"><span class="nav-icon">✧</span>Analyze a message</button>
+        <button class="nav-item" data-view="policies"><span class="nav-icon">▧</span>Policy library</button>
+        <button class="nav-item" data-view="evaluation"><span class="nav-icon">▥</span>Model evaluation</button>
+      </nav>
+      <div class="nav-caption learn-caption">LEARN THE PROJECT</div>
+      <a class="nav-item" href="/guide/" target="_blank" rel="noopener"><span class="nav-icon">◎</span>Student handbook<span class="external">↗</span></a>
+      <a class="nav-item" href="/docs" target="_blank" rel="noopener"><span class="nav-icon">⌘</span>API explorer<span class="external">↗</span></a>
+      <div class="sidebar-bottom"><span class="live-dot"></span><div>Local learning environment<small>No messages sent automatically</small></div></div>
+      <div class="profile"><span class="avatar">ST</span><div>Student workspace<small>Explainable NLP edition</small></div></div>
+    </aside>
+    <main>
+      <header class="topbar"><div><span class="breadcrumb">Workspace</span><span class="slash">/</span><span id="breadcrumb-current">Ticket inbox</span></div><span class="mode-pill" id="mode-pill">Connecting…</span></header>
+      <div id="view" aria-live="polite"><div class="loading">Loading your workspace…</div></div>
+    </main>
+  </div>
+  <dialog id="new-ticket-dialog">
+    <form id="ticket-form">
+      <div class="dialog-heading"><div><span class="eyebrow">TICKET INTAKE</span><h2>Create a ticket</h2></div><button type="button" class="icon-button" id="close-dialog" aria-label="Close dialog">×</button></div>
+      <p class="muted">Add a message to the local inbox. The NLP pipeline will analyze it automatically.</p>
+      <label>Customer name<input name="customer" required maxlength="80" placeholder="e.g. Jamie Taylor"></label>
+      <label>Subject<input name="subject" required maxlength="120" placeholder="A short description of the issue"></label>
+      <label>Customer message<textarea name="message" required minlength="3" maxlength="12000" rows="6" placeholder="Paste the customer's message…"></textarea></label>
+      <p class="form-error" id="ticket-error" role="alert"></p><button class="button primary" type="submit">Create & analyze <span>↗</span></button>
+    </form>
+  </dialog>
+  <div id="toast" class="toast" role="status"></div>
+</body>
+</html>

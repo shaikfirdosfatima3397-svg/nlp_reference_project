@@ -1,0 +1,50 @@
+[
+  {
+    "query": "The item is broken and I want a replacement.",
+    "policy_id": "POL-01"
+  },
+  {
+    "query": "Parcel marked delivered but missing.",
+    "policy_id": "POL-02"
+  },
+  {
+    "query": "I want to return unopened shoes in the wrong size.",
+    "policy_id": "POL-03"
+  },
+  {
+    "query": "When will the refund be posted after my return was approved?",
+    "policy_id": "POL-04"
+  },
+  {
+    "query": "My card was charged twice at checkout.",
+    "policy_id": "POL-05"
+  },
+  {
+    "query": "I need a GST invoice and receipt.",
+    "policy_id": "POL-06"
+  },
+  {
+    "query": "Cannot sign in because my password reset code expired.",
+    "policy_id": "POL-07"
+  },
+  {
+    "query": "The ceramic lamp arrived smashed.",
+    "policy_id": "POL-01"
+  },
+  {
+    "query": "Shipment tracking is stuck in transit.",
+    "policy_id": "POL-02"
+  },
+  {
+    "query": "UPI failed but money was deducted.",
+    "policy_id": "POL-05"
+  },
+  {
+    "query": "I lost access to my registered email.",
+    "policy_id": "POL-07"
+  },
+  {
+    "query": "How do I cancel before dispatch?",
+    "policy_id": "POL-03"
+  }
+]

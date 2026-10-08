@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "checks": [
+    "desktop render",
+    "6 seed tickets",
+    "damaged analysis",
+    "unknown abstention",
+    "policy filter",
+    "evaluation matrix",
+    "ticket creation",
+    "HTML escaping",
+    "draft persistence after reload",
+    "status filter",
+    "search empty state",
+    "mobile overflow",
+    "19 handbook lessons",
+    "handbook search",
+    "no JS errors"
+  ]
+}

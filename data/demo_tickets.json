@@ -1,0 +1,32 @@
+[
+  {
+    "customer": "Maya Rao",
+    "subject": "Broken screen on arrival",
+    "message": "Order #A102 arrived with a broken screen on 5 October 2026. I emailed twice already and I am frustrated. Can I get a replacement? You can reach me at maya@example.com."
+  },
+  {
+    "customer": "Liam Chen",
+    "subject": "Parcel still missing",
+    "message": "Where is order #D558? The delivery date has passed and tracking has not updated. I need a delivery update today."
+  },
+  {
+    "customer": "Sara Ali",
+    "subject": "Duplicate card charge",
+    "message": "My card was charged twice for order #P321 on 2026-10-05. The amount is INR 1200 for each transaction. Please investigate the duplicate payment."
+  },
+  {
+    "customer": "Noah Patel",
+    "subject": "Return the wrong size",
+    "message": "The shoes from order #R888 are too small. I want to return them and get a refund. They are unused and in the original packaging."
+  },
+  {
+    "customer": "Ava James",
+    "subject": "Cannot access my account",
+    "message": "I cannot log in to my account. The password reset email has not arrived and the verification code keeps expiring."
+  },
+  {
+    "customer": "Alex Morgan",
+    "subject": "A question for your team",
+    "message": "Do you sponsor local music festivals and offer community partnerships?"
+  }
+]

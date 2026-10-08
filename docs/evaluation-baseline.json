@@ -1,0 +1,485 @@
+{
+  "dataset": "Small synthetic teaching holdout; not a real-world benchmark",
+  "train_count": 120,
+  "test_count": 40,
+  "accuracy": 0.9,
+  "macro_f1": 0.8971,
+  "coverage": 0.65,
+  "accepted_accuracy": 1.0,
+  "per_class": {
+    "account": {
+      "precision": 0.8888888888888888,
+      "recall": 1.0,
+      "f1-score": 0.9411764705882353,
+      "support": 8.0
+    },
+    "damaged_product": {
+      "precision": 1.0,
+      "recall": 0.75,
+      "f1-score": 0.8571428571428571,
+      "support": 8.0
+    },
+    "delivery": {
+      "precision": 0.8,
+      "recall": 1.0,
+      "f1-score": 0.8888888888888888,
+      "support": 8.0
+    },
+    "payment": {
+      "precision": 0.8888888888888888,
+      "recall": 1.0,
+      "f1-score": 0.9411764705882353,
+      "support": 8.0
+    },
+    "refund_return": {
+      "precision": 1.0,
+      "recall": 0.75,
+      "f1-score": 0.8571428571428571,
+      "support": 8.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      8,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      6,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      8,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      8,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      1,
+      6
+    ]
+  ],
+  "labels": [
+    "account",
+    "damaged_product",
+    "delivery",
+    "payment",
+    "refund_return"
+  ],
+  "classification_cases": [
+    {
+      "text": "The kettle in order #K441 has a cracked handle.",
+      "actual": "damaged_product",
+      "predicted": "needs_review",
+      "suggested": "damaged_product",
+      "confidence": 0.4232
+    },
+    {
+      "text": "After unboxing, I noticed my television display was shattered.",
+      "actual": "damaged_product",
+      "predicted": "needs_review",
+      "suggested": "damaged_product",
+      "confidence": 0.2875
+    },
+    {
+      "text": "One earbud was defective when it arrived; can I get an exchange?",
+      "actual": "damaged_product",
+      "predicted": "needs_review",
+      "suggested": "damaged_product",
+      "confidence": 0.4908
+    },
+    {
+      "text": "My delivered backpack has torn stitching and a broken zip.",
+      "actual": "damaged_product",
+      "predicted": "damaged_product",
+      "suggested": "damaged_product",
+      "confidence": 0.5296
+    },
+    {
+      "text": "The replacement I received is faulty too.",
+      "actual": "damaged_product",
+      "predicted": "damaged_product",
+      "suggested": "damaged_product",
+      "confidence": 0.7024
+    },
+    {
+      "text": "My new adapter produces smoke whenever plugged in.",
+      "actual": "damaged_product",
+      "predicted": "needs_review",
+      "suggested": "account",
+      "confidence": 0.3291
+    },
+    {
+      "text": "The tablet is scratched badly. I can provide pictures.",
+      "actual": "damaged_product",
+      "predicted": "damaged_product",
+      "suggested": "damaged_product",
+      "confidence": 0.5434
+    },
+    {
+      "text": "The shipment arrived, but the glass vase inside is smashed.",
+      "actual": "damaged_product",
+      "predicted": "needs_review",
+      "suggested": "delivery",
+      "confidence": 0.3786
+    },
+    {
+      "text": "Order D558 is still in transit after the expected arrival date.",
+      "actual": "delivery",
+      "predicted": "needs_review",
+      "suggested": "delivery",
+      "confidence": 0.3659
+    },
+    {
+      "text": "Can you locate a parcel that the driver marked as delivered?",
+      "actual": "delivery",
+      "predicted": "delivery",
+      "suggested": "delivery",
+      "confidence": 0.6464
+    },
+    {
+      "text": "There has been no tracking movement for several days.",
+      "actual": "delivery",
+      "predicted": "needs_review",
+      "suggested": "delivery",
+      "confidence": 0.4919
+    },
+    {
+      "text": "I need to correct the address for my shipment.",
+      "actual": "delivery",
+      "predicted": "delivery",
+      "suggested": "delivery",
+      "confidence": 0.606
+    },
+    {
+      "text": "My package never reached me and the courier is unreachable.",
+      "actual": "delivery",
+      "predicted": "delivery",
+      "suggested": "delivery",
+      "confidence": 0.6679
+    },
+    {
+      "text": "What is the dispatch status of order #H217?",
+      "actual": "delivery",
+      "predicted": "needs_review",
+      "suggested": "delivery",
+      "confidence": 0.4269
+    },
+    {
+      "text": "The delivery attempt failed. Please arrange another attempt.",
+      "actual": "delivery",
+      "predicted": "needs_review",
+      "suggested": "delivery",
+      "confidence": 0.3805
+    },
+    {
+      "text": "The shoes have not arrived yet. Can you find the shipment?",
+      "actual": "delivery",
+      "predicted": "delivery",
+      "suggested": "delivery",
+      "confidence": 0.5842
+    },
+    {
+      "text": "These trousers are too large. I would like to send them back.",
+      "actual": "refund_return",
+      "predicted": "refund_return",
+      "suggested": "refund_return",
+      "confidence": 0.7331
+    },
+    {
+      "text": "My returned purchase reached you; when will I get my money back?",
+      "actual": "refund_return",
+      "predicted": "refund_return",
+      "suggested": "refund_return",
+      "confidence": 0.6267
+    },
+    {
+      "text": "I wish to cancel order R888 before dispatch.",
+      "actual": "refund_return",
+      "predicted": "needs_review",
+      "suggested": "refund_return",
+      "confidence": 0.3321
+    },
+    {
+      "text": "Could you send instructions for returning an unopened game?",
+      "actual": "refund_return",
+      "predicted": "needs_review",
+      "suggested": "payment",
+      "confidence": 0.2908
+    },
+    {
+      "text": "The reimbursement for my cancellation has not appeared.",
+      "actual": "refund_return",
+      "predicted": "needs_review",
+      "suggested": "delivery",
+      "confidence": 0.3682
+    },
+    {
+      "text": "Can you supply a fresh return label?",
+      "actual": "refund_return",
+      "predicted": "refund_return",
+      "suggested": "refund_return",
+      "confidence": 0.8086
+    },
+    {
+      "text": "I bought the wrong colour and would like a refund.",
+      "actual": "refund_return",
+      "predicted": "refund_return",
+      "suggested": "refund_return",
+      "confidence": 0.685
+    },
+    {
+      "text": "Is my product eligible for the return window?",
+      "actual": "refund_return",
+      "predicted": "refund_return",
+      "suggested": "refund_return",
+      "confidence": 0.5663
+    },
+    {
+      "text": "Checkout failed, yet my bank balance fell by INR 1200.",
+      "actual": "payment",
+      "predicted": "payment",
+      "suggested": "payment",
+      "confidence": 0.7019
+    },
+    {
+      "text": "Two identical transactions appear for order #P321.",
+      "actual": "payment",
+      "predicted": "needs_review",
+      "suggested": "payment",
+      "confidence": 0.4357
+    },
+    {
+      "text": "Please provide a GST invoice for my recent purchase.",
+      "actual": "payment",
+      "predicted": "payment",
+      "suggested": "payment",
+      "confidence": 0.644
+    },
+    {
+      "text": "My debit card keeps getting declined on your payment page.",
+      "actual": "payment",
+      "predicted": "payment",
+      "suggested": "payment",
+      "confidence": 0.759
+    },
+    {
+      "text": "A successful UPI payment did not produce an order confirmation.",
+      "actual": "payment",
+      "predicted": "payment",
+      "suggested": "payment",
+      "confidence": 0.7208
+    },
+    {
+      "text": "There is an extra charge on my billing statement.",
+      "actual": "payment",
+      "predicted": "payment",
+      "suggested": "payment",
+      "confidence": 0.7721
+    },
+    {
+      "text": "I need a receipt showing the amount paid.",
+      "actual": "payment",
+      "predicted": "payment",
+      "suggested": "payment",
+      "confidence": 0.6319
+    },
+    {
+      "text": "The bank shows a pending charge for an unsuccessful transaction.",
+      "actual": "payment",
+      "predicted": "payment",
+      "suggested": "payment",
+      "confidence": 0.8462
+    },
+    {
+      "text": "The recovery email for my password never reaches me.",
+      "actual": "account",
+      "predicted": "account",
+      "suggested": "account",
+      "confidence": 0.6423
+    },
+    {
+      "text": "I have been locked out of my customer profile.",
+      "actual": "account",
+      "predicted": "needs_review",
+      "suggested": "account",
+      "confidence": 0.3705
+    },
+    {
+      "text": "Can you help update my registered email?",
+      "actual": "account",
+      "predicted": "account",
+      "suggested": "account",
+      "confidence": 0.5759
+    },
+    {
+      "text": "The one time code to sign in keeps expiring.",
+      "actual": "account",
+      "predicted": "account",
+      "suggested": "account",
+      "confidence": 0.7852
+    },
+    {
+      "text": "My activation link is invalid and I cannot access the account.",
+      "actual": "account",
+      "predicted": "account",
+      "suggested": "account",
+      "confidence": 0.8025
+    },
+    {
+      "text": "I no longer remember my login password.",
+      "actual": "account",
+      "predicted": "account",
+      "suggested": "account",
+      "confidence": 0.5149
+    },
+    {
+      "text": "The website rejects my credentials when I try to log in.",
+      "actual": "account",
+      "predicted": "account",
+      "suggested": "account",
+      "confidence": 0.5821
+    },
+    {
+      "text": "How can I verify my account with a new email address?",
+      "actual": "account",
+      "predicted": "account",
+      "suggested": "account",
+      "confidence": 0.8062
+    }
+  ],
+  "extraction": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "cases": 8,
+    "tp": 13,
+    "fp": 0,
+    "fn": 0
+  },
+  "retrieval": {
+    "recall_at_3": 1.0,
+    "cases": [
+      {
+        "query": "The item is broken and I want a replacement.",
+        "policy_id": "POL-01",
+        "retrieved": [
+          "POL-01",
+          "POL-04"
+        ],
+        "hit": true
+      },
+      {
+        "query": "Parcel marked delivered but missing.",
+        "policy_id": "POL-02",
+        "retrieved": [
+          "POL-02"
+        ],
+        "hit": true
+      },
+      {
+        "query": "I want to return unopened shoes in the wrong size.",
+        "policy_id": "POL-03",
+        "retrieved": [
+          "POL-03",
+          "POL-04"
+        ],
+        "hit": true
+      },
+      {
+        "query": "When will the refund be posted after my return was approved?",
+        "policy_id": "POL-04",
+        "retrieved": [
+          "POL-04",
+          "POL-03",
+          "POL-02"
+        ],
+        "hit": true
+      },
+      {
+        "query": "My card was charged twice at checkout.",
+        "policy_id": "POL-05",
+        "retrieved": [
+          "POL-05"
+        ],
+        "hit": true
+      },
+      {
+        "query": "I need a GST invoice and receipt.",
+        "policy_id": "POL-06",
+        "retrieved": [
+          "POL-06"
+        ],
+        "hit": true
+      },
+      {
+        "query": "Cannot sign in because my password reset code expired.",
+        "policy_id": "POL-07",
+        "retrieved": [
+          "POL-07"
+        ],
+        "hit": true
+      },
+      {
+        "query": "The ceramic lamp arrived smashed.",
+        "policy_id": "POL-01",
+        "retrieved": [
+          "POL-01",
+          "POL-02"
+        ],
+        "hit": true
+      },
+      {
+        "query": "Shipment tracking is stuck in transit.",
+        "policy_id": "POL-02",
+        "retrieved": [
+          "POL-02"
+        ],
+        "hit": true
+      },
+      {
+        "query": "UPI failed but money was deducted.",
+        "policy_id": "POL-05",
+        "retrieved": [
+          "POL-05"
+        ],
+        "hit": true
+      },
+      {
+        "query": "I lost access to my registered email.",
+        "policy_id": "POL-07",
+        "retrieved": [
+          "POL-07",
+          "POL-04"
+        ],
+        "hit": true
+      },
+      {
+        "query": "How do I cancel before dispatch?",
+        "policy_id": "POL-03",
+        "retrieved": [
+          "POL-03"
+        ],
+        "hit": true
+      }
+    ],
+    "mode": "tfidf"
+  },
+  "drafting": "Human grounding checklist in docs; no automated factuality score is claimed."
+}
